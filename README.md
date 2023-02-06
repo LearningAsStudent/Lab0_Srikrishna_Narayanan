@@ -1,2 +1,2 @@
 # Lab0_Srikrishna_Narayanan
-Lab0: LED blinks at a rate of 1 Hz upon the toggle of a switch
+Lab0: This lab is to showcase how synchronized systems work in an FPGA Zybo board. Utilizing a clock, switch, and a LED we develop a blinker module in which an LED blinks at a rate of 1 Hz when the switch toggles on. Furthermore, to truly understand the overall concept of the blinker module, modifications are made to the VHDL file ("blinker.vhd", "blinker_tb.vhd"), particularly to the counter vector, as well as the Zybo contraints file (zybo_blinker.xdc) to make the LED blink at a rate of 2 Hz.
